@@ -20,7 +20,7 @@ Deadline to submit the estimated trajectories and report: **XX**
 ## Datasets
 
 | Datasets        | Video  | Length | Start Time Snapdragon | Start time Davis | Download Snapdragon | Download Davis |
-| ------------- |:-------------:| -----:| -----:| -----:|
+| ------------- |:-------------:| -----:| -----:| -----:| -----:| -----:|
 | indoor forward 11   | https://youtu.be/mYKStE7e2aI | 85.68 | 1540824001 s | 1540824001 s | link | link |
 | indoor forward 12   | https://youtu.be/jNlDgN8fdKA | 124.07 | 1540824296 s | 1540824296 s | link | link |
 | indoor 45deg 3   | https://youtu.be/q6ELgSAjNMY | 119.82 | 1623 s | 1623 s | link | link |
