@@ -15,6 +15,7 @@ Deadline to submit the estimated trajectories and report: **XX**
    * [Estimated Trajectories](#estimated-trajectories)
    * [Report](#report)
 3. [Evaluation Metric](#evaluation-metric)
+4. [Questions](#questions)
 
 ## Datasets
 
