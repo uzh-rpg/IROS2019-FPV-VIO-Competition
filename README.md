@@ -19,8 +19,6 @@ Deadline to submit the estimated trajectories and report: **XX**
 
 ## Datasets
 
-**TODO: add a table of datasets here**
-
 | Datasets        | Video  | Length | Latest Start Times | Download|
 | ------------- |:-------------:| -----:| -----:| -----:|
 | indoor forward 11   | https://youtu.be/mYKStE7e2aI | 85.68 | xx s |link|
@@ -68,4 +66,4 @@ The submission will be ranked based on the accuracy. We use the same metric as a
 ## Questions
 
 If you have a question about the challenge, please file a Github issue in this repository. This way the question and response will be visible to everyone.
-You may also want to watch this repository in order to be informed of the latest updates.
+Subscribe to [this issue](https://github.com/uzh-rpg/IROS2019-FPV-VIO-Competition/issues/1) to get notified about changes to this document.
