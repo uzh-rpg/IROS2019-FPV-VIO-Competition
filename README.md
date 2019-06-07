@@ -19,14 +19,14 @@ Deadline to submit the estimated trajectories and report: **XX**
 
 ## Datasets
 
-| Datasets        | Video  | Length | Latest Start Times | Download|
+| Datasets        | Video  | Length | Start Time Snapdragon | Start time Davis | Download Snapdragon | Download Davis |
 | ------------- |:-------------:| -----:| -----:| -----:|
-| indoor forward 11   | https://youtu.be/mYKStE7e2aI | 85.68 | 1540824001 s |link|
-| indoor forward 12   | https://youtu.be/jNlDgN8fdKA | 124.07 | 1540824296 s |link|
-| indoor 45deg 3   | https://youtu.be/q6ELgSAjNMY | 119.82 | 1623 s |link|
-| indoor 45deg 16   | https://youtu.be/V4OnapxRLD4 | 58.72 | 133 s |link|
-| outdoor forward 9   | https://youtu.be/ydaMA4Uta9A  | 314.41 | 372 s |link|
-| outdoor forward 10  | https://youtu.be/G60gls4qeZ4 | 455.63 | 674 s |link|
+| indoor forward 11   | https://youtu.be/mYKStE7e2aI | 85.68 | 1540824001 s | 1540824001 s | link | link |
+| indoor forward 12   | https://youtu.be/jNlDgN8fdKA | 124.07 | 1540824296 s | 1540824296 s | link | link |
+| indoor 45deg 3   | https://youtu.be/q6ELgSAjNMY | 119.82 | 1623 s | 1623 s | link | link |
+| indoor 45deg 16   | https://youtu.be/V4OnapxRLD4 | 58.72 | 133 s | 133 s | link | link |
+| outdoor forward 9   | https://youtu.be/ydaMA4Uta9A  | 314.41 | 372 s | 372 s | link | link |
+| outdoor forward 10  | https://youtu.be/G60gls4qeZ4 | 455.63 | 674 s | 674 s |link | link |
 
 ## Submission Format
 Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method.
