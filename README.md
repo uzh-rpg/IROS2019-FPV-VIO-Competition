@@ -45,7 +45,7 @@ The pose is composed of translation (`tx` `ty` `tz`, in meters) and quaternion (
 **Do not publish your trajectory estimates**, as we might re-use some of the datasets for future competitions.
 
 ### Report
-In addition to the estimated trajectories, the participants are required to submit a short report (maximum **4** pages) summarizing their approach.
+In addition to the estimated trajectories, the participants are required to submit a short report (maximum **4** pages, 10MB, pdf) summarizing their approach.
 The reports of all teams will be published on the website after the competition.
 The format of the report is left to the discretion of the participants, however the report must specify the following information:
 * A brief overview of the approach:
