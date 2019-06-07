@@ -38,10 +38,11 @@ The estimated trajectories should be stored in plain text files in the following
     1.403636580013555527e+09 0 0 0 0 0 0 0
     …… 
 
-The file names should be the same as the names of the bag. For example, the result for “seq1.bag” should be saved as “seq1.txt”. The file should be space separated. Each line stands for the pose at the specified timestamp. The timestamps are in the unit of second and used to establish temporal correspondences with the groundtruth. The first pose should be **no later** than the starting times specified above, and only poses after the starting times will be used for evaluation.
+The file names should be the same as the names of the bag/zip. For example, the result for “seq1.bag” should be saved as “seq1.txt”. The file should be space separated. Each line stands for the pose at the specified timestamp. The timestamps are in the unit of second and used to establish temporal correspondences with the groundtruth. The first pose should be **no later** than the starting times specified above, and only poses after the starting times will be used for evaluation.
 
 The pose is composed of translation (`tx` `ty` `tz`, in meters) and quaternion (in Hamilton quaternion, the `w` component is at the end). The pose should specify the pose of the IMU in the world frame. For example, after converting the pose to a transformation matrix `Twi`, one should be able to transform the homogeneous point coordinates in IMU frame to world frame as `pw = Twi * pi`.
 
+**Do not publish your trajectory estimates**, as we might re-use some of the datasets for future competitions.
 
 ### Report
 In addition to the estimated trajectories, the participants are required to submit a short report (maximum **4** pages) summarizing their approach.
