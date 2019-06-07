@@ -62,6 +62,7 @@ The participants are welcome to include further details of their approach, event
 
 ## Evaluation Metric
 The submission will be ranked based on the accuracy. We use the same metric as adopted by [KITTI](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). The average translation error (in percentage) over all possible subsequences of a set of certain lengths will be used for ranking the submitted results.
+We will use our publicly available [trajectory evaluation toolbox](https://github.com/uzh-rpg/rpg_trajectory_evaluation) to evaluate the estimated trajectories.
 
 ## Questions
 
