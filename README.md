@@ -8,7 +8,7 @@ The FPV Drone Racing VIO competition will be held jointly with **WORKSHOP NAME**
 
 The participants are required to run their VIO algorithms on datasets (including images, IMU measurements and event data) recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any possible sensor combinations. The winner will be selected based on the accuracy of the estimated trajectories (details follow below), and awarded **XX**
 
-Deadline to submit the estimated trajectories and report: **XX**
+Deadline to submit the estimated trajectories and report: **XX**. Follow [this link](https://form.jotformeu.com/91574387123360) to submit.
 
 1. [Datasets](#datasets)
 2. [Submission Format](#submission-format)
@@ -29,13 +29,13 @@ Deadline to submit the estimated trajectories and report: **XX**
 | outdoor forward 10  | https://youtu.be/G60gls4qeZ4 | 455.63 | 674 s | 1540102304 s | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.zip) | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.zip) |
 
 ## Submission Format
-Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method.
+Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method. 
 
 ### Estimated Trajectories
 The estimated trajectories should be stored in plain text files in the following format:
 
     # timestamp tx ty tz qx qy qz qw
-    1.403636580013555527e+09 0 0 0 0 0 0 0
+    1.403636580013555527e+09 0.0 0.0 0.0 0.0 0.0 0.0 0.0
     …… 
 
 The file names should be the same as the names of the bag/zip. For example, the result for “seq1.bag” should be saved as “seq1.txt”. The file should be space separated. Each line stands for the pose at the specified timestamp. The timestamps are in the unit of second and used to establish temporal correspondences with the groundtruth. The first pose should be **no later** than the starting times specified above, and only poses after the starting times will be used for evaluation.
