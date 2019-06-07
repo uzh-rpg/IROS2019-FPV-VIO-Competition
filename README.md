@@ -60,3 +60,8 @@ The participants are welcome to include further details of their approach, event
 
 ## Evaluation Metric
 The submission will be ranked based on the accuracy. We use the same metric as adopted by [KITTI](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). The average translation error (in percentage) over all possible subsequences of a set of certain lengths will be used for ranking the submitted results.
+
+## Questions
+
+If you have a question about the challenge, please file a Github issue in this repository. This way the question and response will be visible to everyone.
+You may also want to watch this repository in order to be informed of the latest updates.
