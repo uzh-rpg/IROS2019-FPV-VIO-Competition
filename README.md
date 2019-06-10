@@ -4,7 +4,7 @@
   <img width="30%" src="http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/indoor_forward_3_snapdragon_with_gt.gif" alt="The FPV Drone Racing VIO Competition" class="center"> 
 </p>
 
-The FPV Drone Racing VIO competition will be held jointly with the IROS 2019 Workshop ["Challenges in Vision-based Drone Navigation"](https://wp.nyu.edu/workshopiros2019mav/).
+The FPV Drone Racing VIO competition will be held jointly with the [IROS 2019 Workshop "Challenges in Vision-based Drone Navigation"](https://wp.nyu.edu/workshopiros2019mav/).
 
 The participants are required to run their VIO algorithms on datasets (including images, IMU measurements and event data) recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any possible sensor combinations. The winner will be selected based on the accuracy of the estimated trajectories (details follow below), and awarded **XX**
 
