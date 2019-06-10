@@ -12,6 +12,8 @@ The participants are required to run their VIO algorithms on sequences selected 
 
 The **deadline to submit the estimated trajectories and report is Sunday, September 1, 2019. Follow [this link](https://form.jotformeu.com/91574387123360) to submit**.
 
+## Table of Contents:
+
 1. [Datasets](#datasets)
 2. [Submission Format](#submission-format)
    * [Estimated Trajectories](#estimated-trajectories)
