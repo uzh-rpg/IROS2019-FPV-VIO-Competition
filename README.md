@@ -21,7 +21,7 @@ The **deadline to submit the estimated trajectories and report is Sunday, Septem
 3. [Evaluation Metric](#evaluation-metric)
 4. [Questions](#questions)
 
-## Datasets ([selected from the UZH FPV Drone Racinf Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html))
+## Datasets ([selected from the UZH FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html))
 
 | Datasets        | Video  | Length | Start Time Snapdragon | Start time Davis | Download Snapdragon | Download Davis |
 | ------------- |:-------------:| -----:| -----:| -----:| -----:| -----:|
