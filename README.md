@@ -1,18 +1,12 @@
-# The FPV Drone Racing VIO Competition
+# The FPV Drone Racing VIO Competition (IROS 2019)
 
 <p align="center">
   <img width="50%" src="http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/indoor_forward_3_snapdragon_with_gt.gif" alt="The FPV Drone Racing VIO Competition" class="center"> 
 </p>
 
-## Description
+The participants were required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal was to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. The winner, a team from [RPNG at the University of Delaware](https://sites.udel.edu/robot/), was selected based on the accuracy of the estimated trajectories (details follow below), awarded **1,000 USD** and invited to present their approach at the [IROS 2019 Workshop "Challenges in Vision-based Drone Navigation"](https://wp.nyu.edu/workshopiros2019mav/) that took place on November 8, 2019 in Macau.
 
-The participants are required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal is to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. The winner will be selected based on the accuracy of the estimated trajectories (details follow below) and will be awarded **1,000 USD** and will also be **invited to present his approach at the [IROS 2019 Workshop "Challenges in Vision-based Drone Navigation"](https://wp.nyu.edu/workshopiros2019mav/)** taking place on November 8, 2019 in Macau.
-
-## Deadline
-
-The **deadline to submit the estimated trajectories and report is October 1, 2019. Follow [this link](https://form.jotformeu.com/91574387123360) to submit**.
-
-## Table of Contents:
+## Competition details:
 
 1. [Datasets](#datasets)
 2. [Submission Format](#submission-format)
@@ -33,7 +27,7 @@ The **deadline to submit the estimated trajectories and report is October 1, 201
 | outdoor forward 10  | ![https://youtu.be/G60gls4qeZ4](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/trajs/outdoor_forward_5_snapdragon_with_gt.gif) | 455.63 | 674 s | 1540102304 s | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_snapdragon.zip) | [bag](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.bag), [zip](http://rpg.ifi.uzh.ch/datasets/uzh-fpv/outdoor_forward_10_davis.zip) |
 
 ## Submission Format
-Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method. Follow [this link](https://form.jotformeu.com/91574387123360) to submit.
+Each participant should submit the estimated trajectories for the above datasets and a report describing the adopted method.
 
 ### Estimated Trajectories
 The estimated trajectories should be stored in plain text files in the following format:
