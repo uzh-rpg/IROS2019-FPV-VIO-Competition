@@ -6,6 +6,16 @@
 
 The participants were required to run their VIO algorithms on sequences selected from the public [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which include images, IMU measurements, and event-based camera data recorded with a FPV drone racing quadrotor flown aggressively by an expert pilot. The goal was to estimate the quadrotor motion as accurately as possible, utilizing any desired sensor combinations. The winner, a team from [RPNG at the University of Delaware](https://sites.udel.edu/robot/), was selected based on the accuracy of the estimated trajectories (details follow below), awarded **1,000 USD** and invited to present their approach at the [IROS 2019 Workshop "Challenges in Vision-based Drone Navigation"](https://wp.nyu.edu/workshopiros2019mav/) that took place on November 8, 2019 in Macau.
 
+## Results:
+
+| Ranking | Name | Sensors | Translation (%) | Rotation (deg/m) | References |
+|---------|------|---------|-----------------|------------------|------------|
+| 1 | [Patrick Geneva](http://udel.edu/~pgeneva/) et al., [RPNG](https://sites.udel.edu/robot/), University of Delaware  | binocular (S) + inertial | 7.023 | 0.264 | [report](http://rpg.ifi.uzh.ch/uzh-fpv/IROS2019/reports/Geneva-Delaware.pdf), [code (OpenVINS)](https://github.com/rpng/open_vins) |
+| 2 | [Thomas Mörwald](https://www.linkedin.com/in/thomas-m%C3%B6rwald-0b685b88), [Leica Geosystems](https://leica-geosystems.com/) | mono (S) + inertial | 7.034 | 0.266 | [report](http://rpg.ifi.uzh.ch/uzh-fpv/IROS2019/reports/Moerwald-Leica.pdf) |
+| 3 | [Vladyslav Usenko](https://vision.in.tum.de/members/usenko), [Computer Vision Group](https://vision.in.tum.de/), TU Munich | stereo (S) + inertial | 7.778 | 0.285 | [report](http://rpg.ifi.uzh.ch/uzh-fpv/IROS2019/reports/Usenko-TUM.pdf), [code (basalt)](https://gitlab.com/VladyslavUsenko/basalt) |
+| 4 | [Kumar Robotics](http://www.kumarrobotics.org/) | stereo (S) + inertial | 11.869 | 0.619 | [code](https://github.com/KumarRobotics/msckf_vio) |
+| 5 | r-u | stereo (S) + inertial | 36.048 | 1.894 | - |
+
 ## Competition details:
 
 1. [Datasets](#datasets)
